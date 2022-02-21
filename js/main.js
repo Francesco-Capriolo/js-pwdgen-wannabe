@@ -11,7 +11,7 @@ document.getElementById("demo").innerHTML =
     "Hello " + firstName + surName + color + "21"; */
 
 function myFunction() {
-    document.getElementById("demo-name").innerHTML = "Nome?";
+    document.getElementById("demo-name").innerHTML = "Name?";
 
     let firstName = prompt("Please enter your name", "Francesco");
 
@@ -19,14 +19,14 @@ function myFunction() {
         document.getElementById("my-name").innerHTML = firstName;
     }
 
-    document.getElementById("demo-surname").innerHTML = "Cognome?";
+    document.getElementById("demo-surname").innerHTML = "Surname?";
 
     let surName = prompt("Please enter your surname", "Capriolo");
 
     if (surName != null) {
         document.getElementById("my-surname").innerHTML = surName;
     }
-    document.getElementById("demo-color").innerHTML = "Colore preferito?";
+    document.getElementById("demo-color").innerHTML = "Favorite Color?";
 
     let color = prompt("Please enter your favorite color", "Blue");
 
@@ -34,5 +34,5 @@ function myFunction() {
         document.getElementById("my-color").innerHTML = color;
     }
     document.getElementById("demo").innerHTML =
-        "Hello " + firstName + surName + color + "21";
+        "Hello " + firstName + " " + surName + "! You are welcome!";
 }
