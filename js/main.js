@@ -11,6 +11,8 @@ document.getElementById("demo").innerHTML =
     "Hello " + firstName + surName + color + "21"; */
 
 function myFunction() {
+    document.getElementById("demo-name").innerHTML = "Nome?";
+
     let firstName = prompt("Please enter your name", "Francesco");
 
     if (firstName != null) {
