@@ -20,6 +20,7 @@
     <!-- style css -->
 
     <link rel="stylesheet" href="css/style.css">
+
     <title>first javascript</title>
 </head>
 
@@ -27,36 +28,43 @@
 
     <main class="container-fluid">
         <section class="row text-center">
+            <button onclick="myFunction">Try it</button>
+        </section>
+        <section class="row text-center">
             <div class="col-12 col-md-6 align-self-center">
                 <h1 class="text-danger">
                     Come ti chiami?
                 </h1>
             </div>
             <div class="col-12 col-md-6 border border-primary">
-                <h2 id="my-name" class="text-primary"></h2>
+                <h2 id="my-name" class="text-primary align-bottom"></h2>
             </div>
         </section>
         <section class="row text-center">
             <div class="col-12 col-md-6 align-self-center">
-                <h1 class="text-danger">
-                    Qual è il tuo cognome?
+                <h1 id="demo-surname" class="text-danger">
+
                 </h1>
             </div>
-            <div class="col-12 col-md-6 border border-primary">
+            <div class="col-12 col-md-6 border border-primary ">
                 <h2 id="my-surname" class="text-primary"></h2>
             </div>
         </section>
         <section class="row text-center">
             <div class="col-12 col-md-6 align-self-center">
-                <h1 class="text-danger">
-                    Il tuo colore preferito?
+                <h1 id="demo-color" class="text-danger">
+
                 </h1>
             </div>
             <div class="col-12 col-md-6 border border-primary">
                 <h2 id="my-color" class="text-primary"></h2>
             </div>
         </section>
+        <section class="row text-center">
+            <h2 id="demo"></h2>
+        </section>
     </main>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

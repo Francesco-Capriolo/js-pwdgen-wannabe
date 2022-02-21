@@ -1,3 +1,7 @@
 .row {
     height: 5rem;
 }
+
+h2 {
+    line-height: 4rem;
+}
